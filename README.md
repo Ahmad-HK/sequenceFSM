@@ -14,7 +14,7 @@ The most important files are:
 - The testbech for the design => sequenceFSM_tb.sv
 - The test vector file => sequenceStream.txt
 
-The coding is done using VSCode.
+The coding was done using VSCode.
 
 The simulator used is Questa Sim.
 
