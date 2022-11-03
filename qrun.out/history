@@ -1,0 +1,6 @@
+- Entry: 1
+  Time: Thu Nov  3 12:34:05 2022
+  Command: qrun -c sequenceFSM_tb.sv 
+- Entry: 2
+  Time: Thu Nov  3 12:34:58 2022
+  Command: qrun -c sequenceFSM_tb.sv 

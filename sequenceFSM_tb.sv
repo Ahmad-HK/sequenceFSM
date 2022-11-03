@@ -1,0 +1,46 @@
+`include "sequenceFSM.sv";
+module sequenceFSM_tb;
+
+    logic clk;
+    logic reset;
+    logic stream;
+    logic detected;
+
+    logic expected;
+
+    sequenceFSM dut (.*);
+
+    logic [1:0] streamVector [0:20];
+    int i;
+
+    always #4 clk++;
+
+    initial begin
+        clk <= 0;
+        reset <= 1;
+        stream <= 0;
+        expected <= 0;
+        i <= 0;
+        $readmemb("sequenceStream.txt", streamVector);
+
+        #10 reset <= 0;
+    end
+
+    property granted;
+        @(posedge clk)
+        expected |=> detected;
+    endproperty
+
+    expected_detected_assert : assert property (granted)
+                                    $display("%b match with %b", $past(detected, 0), $past(expected, 1));
+                                else
+                                    $error("%b not a match with %b", $past(detected, 0), $past(expected, 1));
+
+    always @(posedge clk)
+    begin
+        {stream, expected} <= streamVector[i];
+        i++;
+        if(i == 18) $stop;
+    end
+
+endmodule
