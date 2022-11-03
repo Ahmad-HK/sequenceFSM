@@ -1,0 +1,86 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/projects/interview
+T_opt
+!s110 1667471563
+VbnlIQRln]W9Q=@ij2ghN52
+04 14 4 work sequenceFSM_tb fast 0
+=1-e03f49d8d240-636398cb-2e-1e9c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vsequenceFSM
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1667471555
+!i10b 1
+!s100 RMRKT6j5ehGD@]h09zA4B0
+I8fVGbk<gUhI@h`6Qdd6gg1
+S1
+Z4 dC:/questasim64_2021.1/projects/sequence
+w1667464736
+8C:/questasim64_2021.1/projects/sequence/sequenceFSM.sv
+FC:/questasim64_2021.1/projects/sequence/sequenceFSM.sv
+!i122 20
+L0 1 46
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1667471555.000000
+!s107 C:/questasim64_2021.1/projects/sequence/sequenceFSM.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/projects/sequence/sequenceFSM.sv|
+!i113 0
+Z8 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+nsequence@f@s@m
+vsequenceFSM_tb
+R2
+R3
+!i10b 1
+!s100 T2Ta4Q4_<;g5@YMKmlZzZ0
+ICU@kNX8LHoXnWb?lPJ1=?1
+S1
+R4
+w1667471539
+8C:/questasim64_2021.1/projects/sequence/sequenceFSM_tb.sv
+FC:/questasim64_2021.1/projects/sequence/sequenceFSM_tb.sv
+!i122 21
+L0 1 45
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/questasim64_2021.1/projects/sequence/sequenceFSM_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/projects/sequence/sequenceFSM_tb.sv|
+!i113 0
+R8
+R1
+nsequence@f@s@m_tb
